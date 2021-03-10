@@ -1,0 +1,11 @@
+
+ 
+ .filter_container{
+  flex-direction: row;
+}
+
+.filter{
+    height: 30px;  
+  width: 30px;  
+  color: white;
+}
