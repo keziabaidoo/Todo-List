@@ -47,3 +47,29 @@
     transform: rotate(360deg);
   }
 }
+
+.homepage_container{
+  background-position: center;
+  scroll-behavior:initial;
+  background-color:rgb(207, 152, 161);
+  border-collapse:separate;
+}
+
+.main_texts{
+  position:static;
+  /* flex-direction:inherit; */
+  display:table;
+  /* margin-left: 300px; */
+}
+
+
+
+/* /*TodoLinkPage */
+ 
+
+.container{
+  flex: 1;
+  background-color:rgb(207, 152, 161);
+
+}
+

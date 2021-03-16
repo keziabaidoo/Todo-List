@@ -4,13 +4,13 @@ import filter from "../images/filter.webp"
 import '../App.css';
 
 
-function TodoListPage() {
+function PersonalTodoListPage() {
 
     return (
         <div className="homepage_container">
             <div className="main_texts">
                 
-             <Flex  flexDirection="row" justifyContent="space-between" >
+             <Flex  flexDirection="row" justifyContent="space-between">
              <Heading as="h3" size="xl" marginTop="5" marginRight="10">TASKS </Heading>
                <Text margin="5" fontWeight="light" verticalAlign="5" fontSize="2xl">86 %</Text>
                <img src={filter} alt="filter"  style={{ width:"30px", height:"30px", marginTop:20, fontWeight:"lighter"}}/>
@@ -45,33 +45,28 @@ function TodoListPage() {
                </Flex>
                
 
-               <Flex flexDirection="row"  bg="whiteAlpha.800" borderRadius="30" h="10.5%" margin="1"  marginTop="10" >
-               <Stack direction="row" h="70px" p={0}  borderColor="orange.800"  align="center" justify="center" spacing="20">
-                   <div className="col"> 
-                   <Text marginLeft="1" justify="center" >21:15</Text>
+               <Flex flexDirection="row"  bg="whiteAlpha.800" borderRadius="30" h="25%" margin="1"  marginTop="10" >
+               <Stack direction="row" h="169px" p={0}  borderColor="orange.800"  align="center" justify="center" spacing="20">
+                   <div className="col"  style={{margin:2}}> 
+                   <Text marginLeft="1" justify="center" >17:30</Text>
+                   <Text marginLeft="1" justify="center" marginTop="4">18:30</Text>
+                   <Text marginLeft="1" justify="center" marginTop="4" >#Home</Text>
              </div>
                    <Divider orientation="vertical" />
-                   <div className="col">
-                   <Text justify="center" align="center">Meditate</Text>
+                   <div className="col-md-6">
+                   <Text justify="center" align="center" fontWeight="extrabold" fontSize="x-large">Meditate</Text>
+                   <Text justify="center" align="center" marginTop="3" borderRadius="full" bgColor="blue.100" >Personal</Text>
+                   <Text justify="center" align="center" marginTop="3">Headspace training</Text>
                   
          </div>
                    </Stack>
                </Flex>
-
 
                <Flex flexDirection="row"  bg="whiteAlpha.800" borderRadius="30" h="10.5%" margin="1" marginTop="10" >
                <Stack direction="row" h="70px" p={0}  borderColor="orange.800"  align="center" justify="center" spacing="20">
                    <Text marginLeft="3" justify="center" >5:30</Text>
                    <Divider orientation="vertical" />
                    <Text justify="center" align="center" >Shopping</Text>
-                   </Stack>
-               </Flex>
-
-               <Flex flexDirection="row"  bg="whiteAlpha.800" borderRadius="30" h="10.5%" margin="1" marginTop="10" >
-               <Stack direction="row" h="70px" p={0}  borderColor="orange.800"  align="center" justify="center" spacing="20">
-                   <Text marginLeft="10"></Text>
-                   <Divider orientation="vertical" />
-                   <Text justify="center" align="center">Research on Spotify</Text>
                    </Stack>
                </Flex>
                
@@ -82,4 +77,4 @@ function TodoListPage() {
     )  
 }
 
-export default TodoListPage
+export default PersonalTodoListPage;

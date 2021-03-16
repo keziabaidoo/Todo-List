@@ -27,11 +27,13 @@ class Homepage extends Component {
                 <ListItem padding="1" marginTop="3">Design demo for product</ListItem>
             </List>
 
-
+            <Flex justify="flex-end"  marginInline="10"  >
+           <Text justify="center" align="center" borderWidth="thin" h="30" w="100px" borderRadius="full" >TODAY</Text>
+           </Flex>
           <div className="col">
            {/* <Flex> */}
-           <Text justify="center" align="center" borderWidth="thin" h="30" w="100px" borderRadius="full">TODAY</Text>
-           <Box w="100%" h="660px" bgGradient="linear(to-t, pink.300, orange.200)" borderRadius="20" marginBottom="5">
+
+           <Box w="100%" h="660px" bgGradient="linear(to-t, pink.300, orange.200)" borderRadius="20" marginBottom="1" >
                <Flex flexDirection="row" justifyContent="space-between">  
                <Heading as="h3" size="xl" marginTop="10" marginRight="10" margin="10">TASKS </Heading>
                <Text margin="10" fontWeight="bold" verticalAlign="5" fontSize="2xl">86 %</Text>
@@ -50,7 +52,7 @@ class Homepage extends Component {
 
                <Flex flexDirection="row"  bg="yellow.100" borderRadius="30" h="10.5%" paddingTop="3.5" margin="1" marginTop="9" >
                <Stack direction="row" h="57px" p={0}  borderColor="orange.800"  spacing="20" justify="center" align="center">
-                   <div className="col" style={{flexDirection:"column"}}>
+                   <div className="col">
                    <Text marginLeft="3" justify="center">5:30</Text>
                    <Text marginLeft="2" justify="center" marginBottom="4">10:30</Text>
                    </div>
@@ -62,7 +64,7 @@ class Homepage extends Component {
 
                <Flex flexDirection="row"  bg="whiteAlpha.800" borderRadius="30" h="10.5%" margin="1" marginTop="10" >
                <Stack direction="row" h="69px" p={0}  borderColor="orange.800"  spacing="20" justify="center" align="center" >
-                   <Text marginLeft="3"justify="center" align="center">17 : 00</Text>
+                   <Text marginLeft="3"justify="center" align="center">17:00</Text>
                    <Divider orientation="vertical" />
                    <Text justify="center" align="center">Buy flowers for mom</Text>
                   </Stack>

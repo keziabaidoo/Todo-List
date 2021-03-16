@@ -3,6 +3,9 @@ import './App.css';
 import Homepage from './components/Homepage';
 import { ThemeProvider, CSSReset } from '@chakra-ui/react'
 import theme from '@chakra-ui/theme';
+import TodoListPage from './components/TodoListPage';
+import PersonalTodoListPage from "./components/PersonalTodoListPage";
+import TodoLinkPage from './components/TodoLinkPage';
 
 
 const customTheme = {
@@ -33,6 +36,11 @@ function App() {
 
        <Switch>
          <Route path="/" component={Homepage} exact/>
+         <Route path="/TodoListPage" component={TodoListPage} exact/>
+         <Route path="/PersonalTodoListPage" component={PersonalTodoListPage} exact/>
+         <Route path="/TodoLinkPage" component={TodoLinkPage} exact/>
+
+
        </Switch>
       
       </ThemeProvider>
