@@ -67,9 +67,11 @@
 /* /*TodoLinkPage */
  
 
-.container{
+.container-Text{
   flex: 1;
   background-color:rgb(207, 152, 161);
+  height: 700px;
+  border-top: 20px;
 
 }
 

@@ -27,8 +27,8 @@ class Homepage extends Component {
                 <ListItem padding="1" marginTop="3">Design demo for product</ListItem>
             </List>
 
-            <Flex justify="flex-end"  marginInline="10"  >
-           <Text justify="center" align="center" borderWidth="thin" h="30" w="100px" borderRadius="full" >TODAY</Text>
+            <Flex justify="flex-end"  marginInline="10" position="relative"  top="4">
+           <Text justify="center" align="center" borderWidth="thin" h="30" w="100px" borderRadius="full" bg="white" >TODAY</Text>
            </Flex>
           <div className="col">
            {/* <Flex> */}
