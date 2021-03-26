@@ -44,23 +44,23 @@ class Homepage extends Component {
 
                </Flex>
 
-               <Flex flexDirection="row"  bg="whiteAlpha.800" borderRadius="30" h="10.5%" margin="1" position="relative" >
+               <Flex flexDirection="row"  bg="whiteAlpha.800" borderRadius="30" h="10.5%" margin="1" position="relative">
                <Stack direction="row" h="70px" p={0}  borderColor="orange.800" spacing="9">
-                   <Text marginLeft="3">5:30</Text>
+                   <Text marginLeft="3" marginTop="6">5:30</Text>
                    <Divider orientation="vertical" />
-                   <Text>Learn 2 UX lessons</Text>
+                   <Text paddingTop="6">Learn 2 UX lessons</Text>
                    </Stack>
                </Flex>
 
 
-               <Flex flexDirection="row"  bg="yellow.100" borderRadius="30" h="10.5%" paddingTop="3.5" margin="1" marginTop="9" >
-               <Stack direction="row" h="57px" p={0}  borderColor="orange.800"  spacing="20" justify="center" align="center">
-                   <div className="col">
-                   <Text marginLeft="3" justify="center">5:30</Text>
-                   <Text marginLeft="2" justify="center" marginBottom="4">10:30</Text>
+               <Flex flexDirection="row"  bg="yellow.100" borderRadius="30" h="10.5%"  margin="1" marginTop="9"position="relative" >
+               <Stack direction="row" h="70px" p={0}  borderColor="orange.800" spacing="9">
+                   <div className="col" style={{paddingTop:10,justifyContent:"center"}} >
+                   <Text>5:30</Text>
+                   <Text>10:30</Text>
                    </div>
                    <Divider orientation="vertical" />
-                   <Text   justify="center" align="center">Marketing project at school</Text>
+                   <Text paddingTop="5">Marketing project at school</Text>
                    </Stack>
                </Flex>
 
