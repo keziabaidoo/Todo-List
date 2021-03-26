@@ -1,21 +1,24 @@
 import React, { Component } from 'react';
 import { Flex, Heading, List, ListItem, Box, Text, Stack, Divider} from "@chakra-ui/react";
-import mdaddcircle from "../images//mdaddcircle.png";
 import filter from "../images/filter.webp";
 // import AllStyles from "../styles/AllStyles.css"
+import Footer from "../components/footer"
 
 
 
 class Homepage extends Component {
     constructor(props){
         super(props);
-        this.state ={};
+        this.state ={
+
+            data: [{time:"5:30", task:"Learn 2 UX lessons"},]
+        };
     }
     render() {
         return (
             <div className="container">
                 <Flex  flexDirection="row" justifyContent="space-between">
-                <Heading as="h3" size="xl">GOALS</Heading>
+                <Heading as="h3" size="xl" >GOALS</Heading>
                 <img src={filter} alt="filter"  style={{ width:"36px", height:"40px"}}/>
 
                 </Flex>
@@ -81,10 +84,10 @@ class Homepage extends Component {
                    <Text marginLeft="3">12 : 15</Text>
                    <Text justifyContent="center" marginLeft="100">Shopping</Text>
  
-             <div className="image" style={{position:"absolute", paddingTop:35,marginLeft:159}}>
-             <img src={mdaddcircle}  alt="mdadcircle"  style={{height:"30px", width:"55"}}/>
-          </div>
-     </Flex>  
+            
+     </Flex> 
+     <Footer/>
+ 
            </Box>
            {/* </Flex> */}
        </div>
