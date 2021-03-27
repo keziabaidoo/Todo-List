@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import mdaddcircle from "../images//mdaddcircle.png";
 import '..//../src/App.css'
-import {IconButton, MdPhone} from '@chakra-ui/react'
+import {IconButton, MdPhone, Stack} from '@chakra-ui/react'
 
 
 export default class footer extends Component {
@@ -9,9 +9,9 @@ export default class footer extends Component {
         return (
             <footer>
             <div className="iconContainer">
-            <div className="icon">
+            <Stack direction="row" justify="center">
             <img src={mdaddcircle}  alt="mdadcircle"  style={{height:"30px", width:"55"}}/>
-          </div>
+          </Stack>
             </div>
             </footer>
         )

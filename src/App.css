@@ -77,12 +77,12 @@
 
 /* footer container */
 
-.iconContainer{
-  align-self: flex-end;
-  right: 10;
+/* .icon {
+  align-self: center;
   bottom: 40;
   margin-bottom: -60;
   z-index: 1;
-}
+  
+} */
 
 
