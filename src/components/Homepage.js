@@ -66,25 +66,29 @@ class Homepage extends Component {
 
 
                <Flex flexDirection="row"  bg="whiteAlpha.800" borderRadius="30" h="10.5%" margin="1" marginTop="10" >
-               <Stack direction="row" h="69px" p={0}  borderColor="orange.800"  spacing="20" justify="center" align="center" >
-                   <Text marginLeft="3"justify="center" align="center">17:00</Text>
+               <Stack direction="row" h="70px" p={0}  borderColor="orange.800"  spacing="9" >
+                   <Text paddingTop="6">17:00</Text>
                    <Divider orientation="vertical" />
-                   <Text justify="center" align="center">Buy flowers for mom</Text>
+                   <Text paddingTop="6">Buy flowers for mom</Text>
                   </Stack>
                   </Flex>
 
-               <Flex flexDirection="row"  bg="whiteAlpha.800" borderRadius="30" h="10.5%" paddingTop="3.5" margin="1" marginTop="9" >
-                   <Text marginLeft="3">17 : 30</Text>
-         
-                   <Text justifyContent="center" marginLeft="100">Meditate</Text>
+               <Flex flexDirection="row"  bg="whiteAlpha.800" borderRadius="30" h="10.5%" paddingTop="3.5" margin="1" marginTop="9">
+               <Stack direction="row" h="55px" p={0}  borderColor="orange.800" spacing="9">
+                <Text>17:30</Text>
+                <Divider orientation="vertical" />
+                 <Text>Meditate</Text>
+              </Stack>
                </Flex>
 
 
-               <Flex flexDirection="row" justifyContent="stretch"  bg="whiteAlpha.800" borderRadius="30" h="10.5%" paddingTop="3.5" margin="1" marginTop="9">
-                   <Text marginLeft="3">12 : 15</Text>
-                   <Text justifyContent="center" marginLeft="100">Shopping</Text>
+               <Flex flexDirection="row"   bg="whiteAlpha.800" borderRadius="30" h="10.5%" paddingTop="3.5" margin="1" marginTop="9">
+               <Stack direction="row" h="55px" p={0}  borderColor="orange.800" spacing="9">
+                   <Text marginLeft="1" paddingTop="3">12:15</Text>
+                   <Divider orientation="vertical" justify="center" />
+                   <Text paddingTop="3">Shopping</Text>
  
-            
+            </Stack>
      </Flex> 
      <Footer/>
  
